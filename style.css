@@ -2,16 +2,20 @@ body {
   background: yellow;
 }
 
-/*@media screen and (min-width: 900px) {
+h1 {
+  color: red;
+}
+
+/* @media screen and (min-width: 900px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url("./large-background.jpg") no-repeat center center fixed;
     background-size: cover;
   }
-}
-*/
+} */
+
 @media screen and (max-width: 500px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url("./large-background.jpg") no-repeat center center fixed;
     background-size: cover;
   }
 }
